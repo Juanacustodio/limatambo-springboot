@@ -7,9 +7,10 @@ import com.idat.citaslimatambo.model.Especialidad;
 public interface EspecialidadService {
 	public List<Especialidad> getAll();
 	 
-	public Especialidad getById(long id);
+	public Especialidad getById(int id);
 	 
 	public void saveOrUpdate(Especialidad especialidad);
 	 
-	public void delete(long id);
+	public void delete(int id);
 }
+
